@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/extensions
 import Swipe from './modules/swipe.js';
+import audioplayer from './modules/audioplayer.js';
 
 // Config
 const slideshowsContentUrl = './json/content.json';
@@ -204,3 +205,5 @@ fetchSlideshowData(slideshowsContentUrl, templateUrl)
   .catch((error) => { console.error(error); });
 
 toogleMenu();
+
+audioplayer();
